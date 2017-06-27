@@ -47,7 +47,7 @@ public class AesActivity extends Activity implements View.OnClickListener {
                 int meterId = Integer.valueOf(dataid);
                 String strIdHex = String.format("%02X%02X%02X%02X", meterId & 0xff, (meterId >> 8) & 0xff, (meterId >> 16) & 0xff, (meterId >> 24) & 0xff);
 
-                Double totalb = Double.parseDouble("100.005");
+                Double totalb = Double.parseDouble("1000.005");
 
                 // String total = Integer.to(Double.doubleToLongBits(Double.parseDouble("500")));
                 int bigOfTotal = (int) Math.floor(totalb);
