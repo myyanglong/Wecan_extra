@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">伟岸测器</string>
+    <string name="baudRate">Baud rate</string>
+
+    <string name="m_s">小表采集</string>
+    <string name="m_b">大表采集</string>
+    <string name="m_d">用户登录</string>
+    <string name="m_h">帮助</string>
+    <string name="m_i">安装配置</string>
+    <string name="m_l">语言</string>
+    <string name="preservation">保存</string>
+    <string name="cancel">取消</string>
+
+    <!--小表数据配置-->
+    <string name="title">小表配置</string>
+    <string name="stable_id">小表ID</string>
+    <string name="stable_id_Prompt">请输入小表ID</string>
+    <string name="stable_village">小区名称</string>
+    <string name="stable_village_Prompt">请输入小区名称</string>
+    <string name="stable_unitnumber">单元号</string>
+    <string name="stable_unitnumber_Prompt">请输入单元号</string>
+    <string name="stable_floor">楼层</string>
+    <string name="stable_floor_Prompt">请输入楼层</string>
+    <string name="stable_housenumber">门牌号</string>
+    <string name="stable_housenumber_Prompt">请输入门牌号</string>
+
+
+    <string name="s_get">采集到的用户</string>
+    <string name="s_missed">未采集到的用户</string>
+    <string name="s_data">数据采集</string>
+    <string name="s_area">区域选择</string>
+    <string name="s_init">数据同步</string>
+    <string name="s_setting">采集设置</string>
+
+    <string name="s_command_down">水表号下载</string>
+    <string name="s_command_up">数据上传</string>
+    <string name="s_command_export">数据导出</string>
+    <string name="s_command_activate">激活</string>
+    <string name="s_command_init">数据初始化</string>
+
+    <string name="s_operation_net">组网</string>
+    <string name="s_operation_collect">采集</string>
+    <string name="s_operation_clear">清除</string>
+
+    <string name="data_meter">采集到的用户(%1$d)</string>
+    <string name="data_missed">未采集的用户(%1$d)</string>
+    <string name="data_time">采集时间:%1$s</string>
+    <string name="data_total">总量:</string>
+    <string name="data_rf">最小瞬时流量:%1$s</string>
+    <string name="data_status">水表:%1$s</string>
+    <string name="meter_list_id">水表号:%1$s</string>
+
+    <string name="db_password">kA32V6we</string>
+    <string name="used_key">C13O</string>
+    <string name="sunitdefault">1栋</string>
+    <string name="villagedefault">临时小区</string>
+    <string name="floordefault">1</string>
+    <string name="housefloordefault">默认表ID</string>
+
+    <string-array name="baud_rate_1">
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>921600</item>
+    </string-array>
+
+    <string-array name="baud_rate_2">
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+
+    <string-array name="stop_bits">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="data_bits">
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="parity">
+        <item>None</item>
+        <item>Odd</item>
+        <item>Even</item>
+        <item>Mark</item>
+        <item>Space</item>
+    </string-array>
+
+    <string-array name="flow_control">
+        <item>None</item>
+        <item>CTS/RTS</item>
+        <item>DTR/DSR</item>
+        <item>XOFF/XON</item>
+    </string-array>
+
+    <string-array name="port_list_1">
+        <item>0</item>
+    </string-array>
+
+
+    <string-array name="port_list_2">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="port_list_3">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="port_list_4">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="port_list_5">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="port_list_6">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="port_list_7">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="port_list_8">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+</resources>
+
+

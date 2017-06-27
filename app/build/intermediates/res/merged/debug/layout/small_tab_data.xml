@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription" >
+
+    <LinearLayout
+        android:id="@+id/home_layout_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/meter_data"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:layout_weight="1.0"
+                android:background="@drawable/small_topbar_bt1"
+                android:clickable="false"
+                android:text="@string/data_meter"
+                android:textColor="#ffffffff"
+                android:textSize="13.0sp" />
+
+            <Button
+                android:id="@+id/missed_data"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="0.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/small_topbar_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/data_missed"
+                android:textColor="#ffffffff"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_below="@+id/home_layout_bar"
+        android:background="@color/white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_weight="8">
+
+        <ListView
+            android:id="@+id/datalistView"
+            android:layout_width="fill_parent"
+            android:layout_height="420dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:cacheColorHint="@android:color/white"
+            android:divider="#c4c2c4"
+            android:dividerHeight="1px"
+            android:headerDividersEnabled="false" >
+        </ListView>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/tab_data_clear"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab_data_net"
+            android:clickable="true"
+            android:text="@string/s_operation_clear"
+            android:textColor="#ffffffff"
+            android:textSize="13.0sp" />
+        
+        <Button  
+            android:id="@+id/tab_data_collect"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_margin="0.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab_data_net"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/s_operation_collect"
+            android:textColor="#ffffffff"
+            android:textSize="13.0sp" />
+        
+        <Button
+            android:id="@+id/tab_data_net"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab_data_net"
+            android:clickable="true"
+            android:text="@string/s_operation_net"
+            android:textColor="#ffffffff"
+            android:textSize="13.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

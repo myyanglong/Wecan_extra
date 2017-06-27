@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:orientation="vertical" > 
+   
+    <TextView 
+        android:id="@+id/tvAddr" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text=""
+        android:textSize="20.0sp" /> 
+        
+    <TextView 
+        android:id="@+id/tvId" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text=""
+        android:textSize="20.0sp" /> 
+        
+    <TextView 
+        android:id="@+id/tvTotal" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="请输入累计流量" /> 
+   
+    <EditText 
+        android:id="@+id/etTotal" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:digits=".1234567890"
+		android:inputType="number"
+        android:singleLine="true"> 
+        <requestFocus /> 
+    </EditText> 
+   
+    <TextView 
+        android:id="@+id/tvRatio" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="请输入流量校准系数"/> 
+   
+    <EditText 
+        android:id="@+id/etRatio" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:digits=".1234567890" 
+        android:singleLine="true"
+		android:inputType="number"
+        android:maxLength = "8"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left"
+		android:background="@drawable/small_list_bg"
+		android:orientation="horizontal"
+		android:paddingTop="10dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left|bottom"
+			android:layout_weight="1.0"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="CX1：" />
+
+			<EditText
+
+				android:id="@+id/etCX1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:digits=".1234567890"
+				android:inputType="number"
+				android:maxLength="8"
+				android:singleLine="true" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left|center"
+			android:layout_weight="1.0"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="CX2：" />
+
+			<EditText
+				android:inputType="number"
+				android:id="@+id/etCX2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:digits=".1234567890"
+				android:maxLength="8"
+				android:singleLine="true" />
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingTop="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left|bottom"
+	            android:layout_weight="1.0"
+	            android:orientation="horizontal" >
+				<TextView
+	                android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content" 
+	                android:text="CX3：" />
+				<EditText
+					android:inputType="number"
+	                android:id="@+id/etCX3"
+	                android:layout_width="match_parent" 
+        			android:layout_height="wrap_content" 
+        			android:digits=".1234567890" 
+        			android:singleLine="true"
+        			android:maxLength = "8"/>
+			</LinearLayout>
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left|center"
+	            android:layout_weight="1.0"
+	            android:orientation="horizontal" >
+	            <TextView
+	                 android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content" 
+	                android:text="CX4：" />
+				<EditText
+					android:inputType="number"
+	                android:id="@+id/etCX4"
+	                android:layout_width="match_parent" 
+        			android:layout_height="wrap_content" 
+        			android:digits=".1234567890" 
+        			android:singleLine="true"
+        			android:maxLength = "8"/>
+            </LinearLayout>
+			
+        </LinearLayout>
+        
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingTop="10dp"
+            android:background="@drawable/small_list_bg"
+            android:orientation="horizontal" >
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left|bottom"
+	            android:layout_weight="1.0"
+	            android:orientation="horizontal" >
+				<TextView
+	                android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content" 
+	                android:text="CX5：" />
+
+				<EditText
+					android:inputType="number"
+					android:id="@+id/etCX5"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:digits=".1234567890"
+					android:maxLength="8"
+					android:singleLine="true" />
+			</LinearLayout>
+			
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left|center"
+	            android:layout_weight="1.0"
+	            android:orientation="horizontal" >
+	            <TextView
+	                 android:layout_width="wrap_content" 
+        			android:layout_height="wrap_content" 
+	                android:text="CX6：" />
+				<EditText
+					android:inputType="number"
+	                android:id="@+id/etCX6"
+	                android:layout_width="match_parent" 
+        			android:layout_height="wrap_content" 
+        			android:digits=".1234567890" 
+        			android:singleLine="true"
+        			android:maxLength = "8"/>
+            </LinearLayout>
+			
+        </LinearLayout>
+   
+</LinearLayout>

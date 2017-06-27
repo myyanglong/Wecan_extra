@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.wecanws.param"
+        minSdkVersion 16
+        targetSdkVersion 22
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/commons-codec.jar')
+    compile files('libs/d2xx.jar')
+    compile files('libs/jxl.jar')
+    compile files('libs/sqlcipher.jar')
+    //noinspection GradleCompatible
+    compile 'com.google.guava:guava:18.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:26.0.0-alpha1'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+}

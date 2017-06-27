@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/small_title_bar"
+        android:orientation="horizontal" >
+        <RelativeLayout
+	            android:id="@+id/s_back"
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:background="@drawable/btn_pressed_style"
+	            android:clickable="true" >
+	           <ImageButton
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:clickable="false"
+		            android:background="@drawable/small_title_button_n"/>
+	        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="@string/m_s"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/s_add"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            
+        </RelativeLayout>
+    </LinearLayout>
+    
+    
+    
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+		<LinearLayout
+		    android:id="@+id/small_operation_net"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/s_pop_selector"
+	        android:layout_marginTop="2dp"
+	        android:orientation="vertical" >
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:padding="15dp"
+		        android:text="@string/s_operation_net"
+		        android:textColor="#ffffff"
+		        android:textSize="15.0sp" />
+		    
+		</LinearLayout>
+		<LinearLayout
+		    android:id="@+id/small_operation_collect"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/s_pop_selector"
+	        android:layout_marginTop="2dp"
+	        android:orientation="vertical" >
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:padding="15dp"
+		        android:text="@string/s_operation_collect"
+		        android:textColor="#ffffff"
+		        android:textSize="15.0sp" />
+		    
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

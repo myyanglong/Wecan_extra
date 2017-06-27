@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/linear_samalltab"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/ly_command_activate"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dp"
+			android:background="@drawable/s_pop_selector"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:padding="15dp"
+				android:text="@string/s_command_activate"
+				android:textColor="#ffffff"
+				android:textSize="15.0sp" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/ly_command_init"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dp"
+			android:background="@drawable/s_pop_selector"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:padding="15dp"
+				android:text="@string/s_command_init"
+				android:textColor="#ffffff"
+				android:textSize="15.0sp" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/ly_command_small"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dp"
+			android:background="@drawable/s_pop_selector"
+			android:orientation="vertical">
+
+			<TextView
+
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:padding="15dp"
+				android:text="添加表号"
+				android:textColor="#ffffff"
+				android:textSize="15.0sp" />
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

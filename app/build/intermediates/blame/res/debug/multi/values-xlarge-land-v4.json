@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            }
+        ]
+    }
+]

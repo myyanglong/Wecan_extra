@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Acitivity.AesActivity">
+
+    <Button
+        android:id="@+id/btn_aes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AES加密"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btn_decrypt"
+        android:layout_alignStart="@+id/btn_decrypt" />
+
+    <TextView
+        android:id="@+id/txt_aesdata"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="加密结果"
+        android:layout_below="@+id/btn_aes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txt_decryptdata"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="解密结果"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AES解密"
+        android:layout_below="@+id/txt_aesdata"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="143dp"
+        android:layout_marginStart="143dp" />
+    " />
+</RelativeLayout>
