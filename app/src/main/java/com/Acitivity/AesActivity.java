@@ -117,7 +117,7 @@ public class AesActivity extends Activity implements View.OnClickListener {
                 zbcx1=ByteUtil.putFloat(Float.parseFloat("1.0"));
 
 
-                byte[] zbtotalb=ByteUtil.putDouble(Double.parseDouble("100.5"));//累计流量
+                byte[] zbtotalb=ByteUtil.putDouble(Double.parseDouble("1000.5"));//累计流量
                 byte[]ssbtotalb=ByteUtil.double2Bytes(Double.parseDouble("100.123"));//累计流量
                 byte[] aaa={(byte) 0.8};
                 String txttalb=EncryptUtils.bytes2HexString(zbtotalb);
