@@ -77,8 +77,8 @@
         <activity android:name="com.Acitivity.SoketActivity" />
         <activity android:name="com.Acitivity.AesActivity" />
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:name="com.Acitivity.LoginActivity"
+           ></activity>
     </application>
 
 </manifest>

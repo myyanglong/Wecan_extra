@@ -152,6 +152,10 @@
         "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\Git\\Wecan_extra\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
         "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },

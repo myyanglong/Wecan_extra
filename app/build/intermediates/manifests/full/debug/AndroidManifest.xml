@@ -33,6 +33,11 @@
     <!-- 允许应用程序完全使用网络 -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <meta-data
         android:name="android.support.VERSION"
         android:value="26.0.0-alpha1" />
@@ -77,6 +82,7 @@
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity android:name="com.Acitivity.SoketActivity" />
         <activity android:name="com.Acitivity.AesActivity" />
+        <activity android:name="com.Acitivity.LoginActivity" />
     </application>
 
 </manifest>

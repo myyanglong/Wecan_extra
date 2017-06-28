@@ -370,6 +370,8 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
@@ -412,6 +414,8 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
     <string name="app_name">伟岸测器</string>
     <string name="baudRate">Baud rate</string>
     <string name="cancel">取消</string>
@@ -422,6 +426,10 @@
     <string name="data_time">采集时间:%1$s</string>
     <string name="data_total">总量:</string>
     <string name="db_password">kA32V6we</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
     <string name="floordefault">1</string>
     <string name="housefloordefault">默认表ID</string>
     <string name="m_b">大表采集</string>
@@ -431,7 +439,12 @@
     <string name="m_l">语言</string>
     <string name="m_s">小表采集</string>
     <string name="meter_list_id">水表号:%1$s</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
     <string name="preservation">保存</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
     <string name="s_area">区域选择</string>
     <string name="s_command_activate">激活</string>
     <string name="s_command_down">水表号下载</string>
@@ -459,6 +472,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunitdefault">1栋</string>
     <string name="title">小表配置</string>
+    <string name="title_activity_login">Sign in</string>
     <string name="used_key">C13O</string>
     <string name="villagedefault">临时小区</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

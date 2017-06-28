@@ -11,51 +11,6 @@
         <dex dex="E:\Git\Wecan_extra\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3a218d95f51c2f5d18fb8a5cc774dac7b875e324\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\libs\commons-codec.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
-        <dex dex="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec_fb46b4436697a60004188448647b4204c1aec767\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\libs\commons-codec.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
-        <dex dex="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\build\intermediates\pre-dexed\debug\commons-codec_fb46b4436697a60004188448647b4204c1aec767.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Git\Wecan_extra\app\libs\commons-codec.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
-        <dex dex="E:\Git\Wecan_extra\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec_7c5edd662cf86ef6ac215431df8c85744666228b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\libs\d2xx.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="549d88cce99830dc2ae951a13d5a8b897362351b">
-        <dex dex="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\build\intermediates\transforms\dex\debug\folders\1000\2\d2xx_878ca4e3a119577da8d5bc6e9a8537e676a760c0\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\xiaotaozhu\.android\build-cache\7b11e89ca30fa299a6db77440e2b9ded8fd9d6d1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\build\intermediates\pre-dexed\debug\classes_42070f1aaec91ac2a939ac95cee36bf312434b29.jar" />
-    </item>
-    <item
         is-multidex="false"
         jar="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\libs\d2xx.jar"
         jumboMode="false"
@@ -75,12 +30,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\libs\commons-codec.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec_fb46b4436697a60004188448647b4204c1aec767\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\libs\commons-codec.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\build\intermediates\pre-dexed\debug\commons-codec_fb46b4436697a60004188448647b4204c1aec767.jar" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c1beb5e969aa3512840c6add2ed14768eccf27ed">
         <dex dex="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1fd37b7c4d50ebbc1a0c5c5e1d924f4db28efc1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Git\Wecan_extra\app\libs\commons-codec.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="E:\Git\Wecan_extra\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec_7c5edd662cf86ef6ac215431df8c85744666228b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -138,6 +120,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\libs\d2xx.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="549d88cce99830dc2ae951a13d5a8b897362351b">
+        <dex dex="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\build\intermediates\transforms\dex\debug\folders\1000\2\d2xx_878ca4e3a119577da8d5bc6e9a8537e676a760c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiaotaozhu\.android\build-cache\7b11e89ca30fa299a6db77440e2b9ded8fd9d6d1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\xiaotaozhu\StudioProjects\Wecan_extra\app\build\intermediates\pre-dexed\debug\classes_42070f1aaec91ac2a939ac95cee36bf312434b29.jar" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\Git\Wecan_extra\app\libs\d2xx.jar"
         jumboMode="true"
         optimize="true"
@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4657f31f3e100b0c93548708aca2792ee1c99387">
+        sha1="c7a821cec63ae9641308d072be7d2c0b57bf8f42">
         <dex dex="E:\Git\Wecan_extra\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f86b226e98887bdf8b970f40035c382c5022b6df\classes.dex" />
     </item>
     <item
