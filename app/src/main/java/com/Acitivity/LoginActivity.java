@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.ftdi.j2xx.hyperterm.J2xxHyperTerm;
 import com.wecanws.param.R;
 
 /**
@@ -26,7 +27,7 @@ public class LoginActivity extends Activity implements View.OnClickListener{
         switch (v.getId())
         {
            case  R.id.btn_login:
-               Intent intent=new Intent(this,LoginActivity.class);
+               Intent intent=new Intent(this,J2xxHyperTerm.class);
                startActivity(intent);
             break;
         }

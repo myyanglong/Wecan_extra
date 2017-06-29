@@ -20,12 +20,12 @@
         "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_pattern.xml",

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_pop_selector.xml",
-        "source": "E:\\Git\\Wecan_extra\\app\\src\\main\\res\\drawable\\s_pop_selector.xml"
-    },
-    {
         "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\xiaotaozhu\\.android\\build-cache\\2712147eb08be8031ed48e9ec302ea6e34cdfa63\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s_pop_selector.xml",
+        "source": "E:\\Git\\Wecan_extra\\app\\src\\main\\res\\drawable\\s_pop_selector.xml"
     },
     {
         "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",

@@ -1,6 +1,18 @@
 [
     {
+        "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\login.png",
+        "source": "E:\\Git\\Wecan_extra\\app\\src\\main\\res\\drawable-ldpi\\login.png"
+    },
+    {
+        "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\admin.png",
+        "source": "E:\\Git\\Wecan_extra\\app\\src\\main\\res\\drawable-ldpi\\admin.png"
+    },
+    {
         "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
         "source": "E:\\Git\\Wecan_extra\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "E:\\Git\\Wecan_extra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\password.png",
+        "source": "E:\\Git\\Wecan_extra\\app\\src\\main\\res\\drawable-ldpi\\password.png"
     }
 ]
