@@ -56,7 +56,7 @@ public class SoketActivity extends Activity {
             @Override
             public void onClick(View v) {
                 soketdata = soketedtext.getText().toString().trim();
-                if (EmptyUtils.isNotEmpty(soketdata)) {
+
                     handler = new Handler() {
                         @Override
                         public void handleMessage(Message msg) {
@@ -67,10 +67,9 @@ public class SoketActivity extends Activity {
                         }
                     };
                     Bundle bundle = null;
-                    new Thread(new MyThread(handler, bundle)).start();
-                } else {
+                    new Thread(new MyThread(handler, bundle,soketdata)).start();
 
-                }
+
             }
         });
         soketedtext = (EditText) findViewById(R.id.soketedtext);
@@ -80,18 +79,29 @@ public class SoketActivity extends Activity {
 class MyThread extends Thread {
     private Handler handler;
     private Bundle bulde;
+    private String socketid;
 
-    public MyThread(Handler handler, Bundle bundle) {
+    public MyThread(Handler handler, Bundle bundle,String socketid) {
         this.handler = handler;
         this.bulde = bundle;
+        this.socketid=socketid;
     }
 
     public void run() {
         try {
             try {
+                Socket clientSocket;
+                if (!EmptyUtils.isEmpty(socketid))
+                {
+                    clientSocket = new Socket(socketid, 11500);
+                    clientSocket.setSoTimeout(5000);
+                }
+                else
+                {
+                     clientSocket = new Socket("121.196.205.55", 11500);
+                    clientSocket.setSoTimeout(5000);
+                }
 
-                Socket clientSocket = new Socket("183.230.182.141", 11600);
-                clientSocket.setSoTimeout(5000);
 //                SocketAddress address = new InetSocketAddress();
 //                clientSocket.connect(address, 5000);
                 // SocketChannel socltcjannel=SocketChannel.open(new InetSocketAddress("183.230.182.141",11500) {

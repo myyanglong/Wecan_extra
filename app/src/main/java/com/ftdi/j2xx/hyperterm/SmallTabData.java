@@ -28,6 +28,7 @@ import android.widget.TextView;
 import com.Bean.SmallDataBean;
 import com.Utils.CrcUtils;
 import com.Utils.SwauthedUtils;
+import com.Utils.ToastUtils;
 import com.wecan.service.PreferencesService;
 import com.wecan.service.WaterMeter;
 import com.wecan.service.WaterMeterAdapter;
@@ -547,44 +548,39 @@ public class SmallTabData extends Activity implements OnClickListener, OnItemLon
 					cx5 = str7;
 					cx6 = str8;
 
-					//成功后发广播到Mainactivity
-					tableintent.putExtras(tabbundle);
-					tableintent.setAction("com.weian.TAB_DATA.BROAD_CAST");
-					sendBroadcast(tableintent);
-					ShowProgressDialog("设置进行中......");
-					alertDialog.dismiss();
-					etTotal.setText("");
-					etRatio.setText("");
-					etCX1.setText("");
-					etCX2.setText("");
-					etCX3.setText("");
-					etCX4.setText("");
-					etCX5.setText("");
-					etCX6.setText("");
 
 					// 开始上传服务器数据
-//					handler = new Handler() {
-//						@Override
-//						public void handleMessage(Message msg) {
-//							// TODO Auto-generated method stub
-//							//更新提示
-//							Bundle b = msg.getData();
-//							ToastUtils.showLongToast(SmallTabData.this, b.getString("prompt"));
-//							int success=msg.what;
-//							if (success==1)
-//							{
-//
-//
-//							}
-//							else{
-//								alertDialog.dismiss();
-//							}
-//
-//
-//
-//						}
-//					};
-					//new Thread(new MyThread(handler,databundle)).start();
+					handler = new Handler() {
+						@Override
+						public void handleMessage(Message msg) {
+							// TODO Auto-generated method stub
+							//更新提示
+							Bundle b = msg.getData();
+							ToastUtils.showLongToast(SmallTabData.this, b.getString("prompt"));
+							int success=msg.what;
+							if (success==1)
+							{
+								//成功后发广播到Mainactivity
+								tableintent.putExtras(tabbundle);
+								tableintent.setAction("com.weian.TAB_DATA.BROAD_CAST");
+								sendBroadcast(tableintent);
+								ShowProgressDialog("设置进行中......");
+								alertDialog.dismiss();
+								etTotal.setText("");
+								etRatio.setText("");
+								etCX1.setText("");
+								etCX2.setText("");
+								etCX3.setText("");
+								etCX4.setText("");
+								etCX5.setText("");
+								etCX6.setText("");
+							}
+							else{
+								alertDialog.dismiss();
+							}
+						}
+					};
+					new Thread(new MyThread(handler,databundle)).start();
 				}
 			}
 		});
@@ -632,7 +628,11 @@ public class SmallTabData extends Activity implements OnClickListener, OnItemLon
 			try {
 				try {
 
-					Socket clientSocket = new Socket("183.230.182.141", 11600);
+					//域名解析
+//					InetAddress x = java.net.InetAddress.getByName("www.baidu.com");
+//					String ip_devdiv = x.getHostAddress();//得到字符串形式的ip地址
+
+					Socket clientSocket = new Socket("121.196.205.55", 15100);
 					clientSocket.setSoTimeout(5000);
 //                SocketAddress address = new InetSocketAddress();
 //                clientSocket.connect(address, 5000);

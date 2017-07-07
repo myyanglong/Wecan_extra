@@ -6,7 +6,7 @@ ADDED from E:\Git\Wecan_extra\app\src\main\AndroidManifest.xml:2:1-84:12
 		INJECTED from E:\Git\Wecan_extra\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Git\Wecan_extra\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\Git\Wecan_extra\app\src\main\AndroidManifest.xml:5:5-30
+		ADDED from E:\Git\Wecan_extra\app\src\main\AndroidManifest.xml:5:5-31
 		INJECTED from E:\Git\Wecan_extra\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Git\Wecan_extra\app\src\main\AndroidManifest.xml
 	android:versionCode

@@ -36,7 +36,7 @@ import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.Acitivity.LoginActivity;
+import com.Acitivity.SoketActivity;
 import com.Utils.ByteUtil;
 import com.Utils.EncryptUtils;
 import com.ftdi.j2xx.D2xxManager;
@@ -494,7 +494,7 @@ public class J2xxHyperTerm extends TabActivity implements OnClickListener, OnChe
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(J2xxHyperTerm.this, LoginActivity.class);
+                intent.setClass(J2xxHyperTerm.this, SoketActivity.class);
                 J2xxHyperTerm.this.startActivity(intent);
             }
         });
